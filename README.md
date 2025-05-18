@@ -13,7 +13,7 @@ A calm and pleasant theme designed for Helix. The color palette is easy on the e
 ### One-liner for Linux
 
 ```sh
-git clone https://github.com/aqmpolyface/serendipity-theme-helix /tmp/serendipity-theme-helix
+git clone https://github.com/aqmpolyface/serendipity-theme-helix /tmp/serendipity-theme-helix && \
 cp /tmp/serendipity-theme-helix/themes/* ~/.config/helix/themes
 ```
 
