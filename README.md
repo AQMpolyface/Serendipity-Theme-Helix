@@ -44,7 +44,7 @@ cp /tmp/serendipity-theme-helix/themes/* ~/.config/helix/themes
 * `serendipity_morning` – Light
 * `serendipity_sunset` – Dark
 * `serendipity_midnight` – Darkest
-https://raw.githubusercontent.com/AQMpolyface/Serendipity-Theme-Helix/refs/heads/master/assets/previews/midnight.png
+
 ### Previews
 
 #### Midnight
