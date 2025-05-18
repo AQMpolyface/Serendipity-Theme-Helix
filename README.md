@@ -52,7 +52,7 @@ https://raw.githubusercontent.com/AQMpolyface/Serendipity-Theme-Helix/refs/heads
 
 #### Sunset
 
-![Sunset Preview](https://raw.githubusercontent.com/aqmpolyface/Serendipity-Theme-Helix/main/assets/previews/sunset.png)
+![Sunset Preview](https://github.com/AQMpolyface/Serendipity-Theme-Helix/blob/master/assets/previews/sunset.png?raw=true)
 
 #### Morning
 
