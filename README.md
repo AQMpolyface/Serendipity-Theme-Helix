@@ -17,6 +17,7 @@ git clone https://github.com/aqmpolyface/serendipity-theme-helix /tmp/serendipit
 cp /tmp/serendipity-theme-helix/themes/* ~/.config/helix/themes
 ```
 
+
 ### Manual Installation
 
 1. Clone this repository.
