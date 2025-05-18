@@ -1,0 +1,190 @@
+# Serendipity Morning Theme for Helix
+
+# GENERAL ==============================
+
+warning = { fg = "#886CDB" } 
+error = { fg = "#D26A5D" }
+info = { fg = "#7397DE" }
+hint = { fg = "#77AAB3" }
+diagnostic = { underline = { style = "curl" } }
+
+# UI ==============================
+
+'ui.background' = { bg = "#FDFDFE" }
+'ui.window' = { fg = "#6e6a8626" }
+'ui.gutter' = { bg = "#FDFDFE" }
+
+'ui.text' = { fg = "#4E5377" }
+'ui.text.focus' = { fg = "#4E5377", bg = "#6e6a8626" }
+'ui.text.info' = { fg = "#5F6488" }
+
+'ui.cursor' = { fg = "#8388AD", modifiers = ["reversed"] }
+'ui.cursor.primary' = { fg = "#4E5377", modifiers = ["reversed"] }
+'ui.cursor.insert' = { fg = "#4E5377", modifiers = ["reversed"] }
+'ui.cursor.select' = { fg = "#8388AD", modifiers = ["reversed"] }
+'ui.cursor.match' = { fg = "#6e6a8626", modifiers = ["underlined"] }
+
+'ui.selection' = { bg = "#6e6a8614" }
+'ui.selection.primary' = { bg = "#6e6a8626" }
+
+'ui.linenr' = { fg = "#5F6488" }
+'ui.linenr.selected' = { fg = "#4E5377" }
+
+'ui.virtual.ruler' = { bg = "#6e6a8614" }
+'ui.virtual.whitespace' = { fg = "#6e6a8626" }
+
+'ui.statusline' = { fg = "#4E5377", bg = "#FDFDFE" }
+'ui.statusline.active' = { fg = "#4E5377", bg = "#F1F1F4" }
+'ui.statusline.inactive' = { fg = "#5F6488", bg = "#FDFDFE" }
+'ui.statusline.normal' = { fg = "#4E5377", bg = "#F1F1F4" }
+'ui.statusline.insert' = { fg = "#4E5377", bg = "#F1F1F4" }
+'ui.statusline.select' = { fg = "#4E5377", bg = "#F1F1F4" }
+
+'ui.help' = { fg = "#4E5377", bg = "#F1F1F4" }
+
+'ui.highlight' = { bg = "#6e6a8614" }
+
+'ui.menu' = { fg = "#4E5377", bg = "#F1F1F4" }
+'ui.menu.selected' = { fg = "#4E5377", bg = "#6e6a8626" }
+
+'ui.popup' = { fg = "#4E5377", bg = "#F1F1F4" }
+'ui.popup.info' = { fg = "#5F6488", bg = "#F1F1F4" }
+
+
+# SYNTAX HIGHLIGHTING ==============================
+
+'property' = { fg = "#4E5377" }
+'special' = { fg = "#5F6488" }
+'attribute' = { fg = "#77AAB3", modifiers = ["italic"] }
+
+'type' = { fg = "#7397DE" }
+'type.builtin' = { fg = "#7397DE" }
+'type.enum.variant' = { fg = "#7397DE" }
+
+'constructor' = { fg = "#7397DE" }
+
+'constant' = { fg = "#3788BE" }
+'constant.builtin' = { fg = "#F19A8E" }
+'constant.builtin.boolean' = { fg = "#F19A8E" }
+'constant.character' = { fg = "#886CDB" }
+'constant.character.escape' = { fg = "#886CDB" }
+'constant.numeric'  = { fg = "#F19A8E" }
+'constant.numeric.integer' = { fg = "#F19A8E" }
+'constant.numeric.float' = { fg = "#F19A8E" }
+
+'string' = { fg = "#886CDB" }
+'string.regexp' = { fg = "#886CDB" }
+'string.special' = { fg = "#886CDB" }
+'string.special.path' = { fg = "#886CDB" }
+'string.special.url' = { fg = "#886CDB" }
+'string.special.symbol' = { fg = "#886CDB" }
+
+'comment' = { fg = "#8388AD", modifiers = ["italic"] }
+'comment.line' = { fg = "#8388AD", modifiers = ["italic"] }
+'comment.block' = { fg = "#8388AD", modifiers = ["italic"] }
+'comment.block.documentation' = { fg = "#8388AD", modifiers = ["italic"] }
+
+'variable' = { fg = "#4E5377", modifiers = ["italic"] }
+'variable.builtin' = { fg = "#F19A8E" }
+'variable.parameter' = { fg = "#77AAB3", modifiers = ["italic"] }
+'variable.other.member' = { fg = "#4c4f69" }
+
+'label' = { fg = "#F19A8E" }
+
+'punctuation' = { fg = "#5F6488" }
+'punctuation.delimiter' = { fg = "#7397DE" }
+'punctuation.bracket' = { fg = "#5F6488" }
+
+'keyword' = { fg = "#3788BE" }
+'keyword.control' = { fg = "#3788BE" }
+'keyword.control.conditional' = { fg = "#3788BE" }
+'keyword.control.repeat' = { fg = "#3788BE" }
+'keyword.control.import' = { fg = "#3788BE" }
+'keyword.control.return' = { fg = "#3788BE" }
+'keyword.control.exception' = { fg = "#3788BE" }
+'keyword.operator' = { fg = "#3788BE" }
+'keyword.directive' = { fg = "#3788BE" }
+'keyword.function' = { fg = "#3788BE" }
+
+'operator' = { fg = "#3788BE" }
+
+'function' = { fg = "#F19A8E" }
+'function.builtin' = { fg = "#F19A8E" }
+'function.method' = { fg = "#F19A8E" }
+'function.macro' = { fg = "#F19A8E" }
+'function.special' = { fg = "#F19A8E" }
+
+'tag' = { fg = "#7397DE" }
+'tag.error' = { fg = "#D26A5D" }
+
+'namespace' = { fg = "#7397DE" }
+
+
+# Markup ==============================
+
+'markup.heading.1' = { fg = "#886CDB", modifiers = ["bold"] }
+'markup.heading.2' = { fg = "#886CDB", modifiers = ["bold"] }
+'markup.heading.3' = { fg = "#886CDB", modifiers = ["bold"] }
+'markup.heading.4' = { fg = "#886CDB", modifiers = ["bold"] }
+'markup.heading.5' = { fg = "#886CDB", modifiers = ["bold"] }
+'markup.heading.6' = { fg = "#886CDB", modifiers = ["bold"] }
+'markup.heading.marker' = { fg = "#3788BE" }
+
+'markup.list' = { fg = "#4E5377" }
+'markup.list.numbered' = { fg = "#4E5377" }
+'markup.list.unnumbered' = { fg = "#4E5377" }
+
+'markup.bold' = { modifiers = ["bold"] }
+'markup.italic' = { modifiers = ["italic"] }
+
+'markup.link' = { fg = "#F19A8E" }
+'markup.link.url' = { fg = "#F19A8E" }
+'markup.link.label' = { fg = "#F19A8E" }
+'markup.link.text' = { fg = "#F19A8E" }
+
+'markup.quote' = { fg = "#8388AD", modifiers = ["italic"] }
+
+
+# Markup - Interface ==============================
+
+'markup.normal' = { fg = "#4E5377" }
+'markup.normal.completion' = { fg = "#4E5377" }
+'markup.normal.raw' = { fg = "#4E5377" }
+
+'markup.heading.completion' = { fg = "#886CDB", modifiers = ["bold"] }
+'markup.heading.raw' = { fg = "#886CDB", modifiers = ["bold"] }
+
+'markup.raw' = { fg = "#886CDB" }
+'markup.raw.block' = { fg = "#886CDB" }
+'markup.raw.inline' = { fg = "#886CDB" }
+'markup.raw.inline.completion' = { fg = "#886CDB" }
+'markup.raw.inline.hover' = { fg = "#886CDB" }
+
+# Diff ==============================
+
+'diff.plus' = { fg = "#3788BE" }
+'diff.minus' = { fg = "#D26A5D" }
+'diff.delta' = { fg = "#F19A8E" }
+'diff.delta.moved' = { fg = "#7397DE" }
+
+
+[palette]
+background = "#FDFDFE"
+background_alt = "#F1F1F4"
+text = "#4E5377"
+text_muted = "#5F6488"
+text_placeholder = "#5F6488"
+accent = "#886CDB"
+error = "#D26A5D"
+warning = "#886CDB"
+info = "#7397DE"
+success = "#77AAB3"
+border = "#6e6a8626"
+border_light = "#6e6a8614"
+red = "#D26A5D"
+green = "#3788BE"
+purple = "#886CDB"
+blue = "#7397DE"
+orange = "#F19A8E"
+teal = "#77AAB3"
+comment = "#8388AD"
