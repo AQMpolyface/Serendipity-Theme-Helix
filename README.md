@@ -56,7 +56,7 @@ cp /tmp/serendipity-theme-helix/themes/* ~/.config/helix/themes
 
 #### Morning
 
-![Morning Preview](https://raw.githubusercontent.com/aqmpolyface/Serendipity-Theme-Helix/main/assets/previews/morning.png)
+![Morning Preview](https://raw.githubusercontent.com/AQMpolyface/Serendipity-Theme-Helix/refs/heads/master/assets/previews/morning.png)
 
 ---
 
