@@ -63,7 +63,7 @@ cp /tmp/serendipity-theme-helix/themes/* ~/.config/helix/themes
 
 ## Credits
 
-Originally created by [Micheal Andreuzza](https://github.com/michael-andreuzza).background
+Originally created by [Micheal Andreuzza](https://github.com/michael-andreuzza)
 Follow him on [Twitter](https://twitter.com/Mike_Andreuzza).
 
 This themes were translated from the zed themes using claude 3.7.
