@@ -2,7 +2,7 @@
 
 # GENERAL ==============================
 
-warning = { fg = "#886CDB" } 
+warning = { fg = "#886CDB" }
 error = { fg = "#D26A5D" }
 info = { fg = "#7397DE" }
 hint = { fg = "#77AAB3" }
@@ -53,7 +53,7 @@ diagnostic = { underline = { style = "curl" } }
 
 # SYNTAX HIGHLIGHTING ==============================
 
-'property' = { fg = "#4E5377" }
+'property' = { fg = "#7397DE" }
 'special' = { fg = "#5F6488" }
 'attribute' = { fg = "#77AAB3", modifiers = ["italic"] }
 
@@ -68,7 +68,7 @@ diagnostic = { underline = { style = "curl" } }
 'constant.builtin.boolean' = { fg = "#F19A8E" }
 'constant.character' = { fg = "#886CDB" }
 'constant.character.escape' = { fg = "#886CDB" }
-'constant.numeric'  = { fg = "#F19A8E" }
+'constant.numeric' = { fg = "#F19A8E" }
 'constant.numeric.integer' = { fg = "#F19A8E" }
 'constant.numeric.float' = { fg = "#F19A8E" }
 
@@ -92,7 +92,7 @@ diagnostic = { underline = { style = "curl" } }
 'label' = { fg = "#F19A8E" }
 
 'punctuation' = { fg = "#5F6488" }
-'punctuation.delimiter' = { fg = "#7397DE" }
+'punctuation.delimiter' = { fg = "#3788BE" }
 'punctuation.bracket' = { fg = "#5F6488" }
 
 'keyword' = { fg = "#3788BE" }

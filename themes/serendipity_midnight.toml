@@ -57,7 +57,7 @@ diagnostic = { underline = { style = "curl" } } # Code diagnostics in editing ar
 # SYNTAX HIGHLIGHTING ==============================
 # All the keys here are Treesitter scopes.
 
-'property' = { fg = "text" } # Regex group names.
+'property' = { fg = "blue" } # Regex group names.
 'special' = { fg = "cyan" } # Special symbols e.g `?` in Rust, `...` in Hare.
 'attribute' = { fg = "magenta" } # Class attributes, html tag attributes.
 
@@ -96,7 +96,7 @@ diagnostic = { underline = { style = "curl" } } # Code diagnostics in editing ar
 'label' = { fg = "cyan" } # Loop labels, among other things.
 
 'punctuation' = { fg = "text_muted" } # Any punctuation symbol.
-'punctuation.delimiter' = { fg = "blue" } # Commas, colons or other delimiter depending on the language.
+'punctuation.delimiter' = { fg = "green" } # Commas, colons or other delimiter depending on the language.
 'punctuation.bracket' = { fg = "text_muted" } # Parentheses, angle brackets, etc.
 
 'keyword' = { fg = "green" } # Language reserved keywords.
