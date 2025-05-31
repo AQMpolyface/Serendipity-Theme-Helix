@@ -25,7 +25,7 @@ cp /tmp/serendipity-theme-helix/themes/* ~/.config/helix/themes
 
    * **Linux**: `~/.config/helix`
    * **Windows**: `%APPDATA%/helix`
-   * **macOS**: *(Not sure, PRs welcome!)*
+   * **macOS**: `~/.config/helix`
 3. Create the `themes` directory if it doesn't exist.
 4. Copy the `.toml` files from the `themes` folder in this repo into your Helix `themes` directory.
 5. To use the theme:
