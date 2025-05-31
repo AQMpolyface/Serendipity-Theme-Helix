@@ -53,7 +53,7 @@ diagnostic = { underline = { style = "curl" } }
 
 # SYNTAX HIGHLIGHTING ==============================
 
-'property' = { fg = "#DEE0EF" }
+'property' = { fg = "#A0B6E8" }
 'special' = { fg = "#6B6D7C" }
 'attribute' = { fg = "#AAC9D4", modifiers = ["italic"] }
 
@@ -68,7 +68,7 @@ diagnostic = { underline = { style = "curl" } }
 'constant.builtin.boolean' = { fg = "#D6B4B4" }
 'constant.character' = { fg = "#A392DC" }
 'constant.character.escape' = { fg = "#A392DC" }
-'constant.numeric'  = { fg = "#D6B4B4" }
+'constant.numeric' = { fg = "#D6B4B4" }
 'constant.numeric.integer' = { fg = "#D6B4B4" }
 'constant.numeric.float' = { fg = "#D6B4B4" }
 
@@ -92,7 +92,7 @@ diagnostic = { underline = { style = "curl" } }
 'label' = { fg = "#D6B4B4" }
 
 'punctuation' = { fg = "#6B6D7C" }
-'punctuation.delimiter' = { fg = "#A0B6E8" }
+'punctuation.delimiter' = { fg = "#709BBD" }
 'punctuation.bracket' = { fg = "#6B6D7C" }
 
 'keyword' = { fg = "#709BBD" }
